@@ -1,0 +1,128 @@
+body {
+    background-image: url("501.jpg");
+    background-color: #cccccc;
+}
+
+#hengfu {
+    margin-top: 3vw;
+    background-color: red;
+    height: 10vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: yellow;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 5px 10px 10px #4e0c0c;
+}
+
+#audioFrame {
+    position: absolute;
+    bottom: 36px;
+    right: 36px;
+}
+
+#img {
+    position: relative;
+    margin-left: 5vw;
+    height: 30vw;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        left: 50px;
+        top: 0px;
+    }
+    10% {
+        left: 150px;
+        top: 30px;
+    }
+    20% {
+        left: 250px;
+        top: 0px;
+    }
+    30% {
+        left: 350px;
+        top: 30px;
+    }
+    40% {
+        left: 450px;
+        top: 0px;
+    }
+    50% {}
+    60% {
+        left: 350px;
+        top: 30px;
+    }
+    70% {}
+    80% {
+        left: 200px;
+        top: 0px;
+    }
+    90% {}
+    100% {
+        left: 100px;
+        top: 0px;
+    }
+}
+
+#img-top {
+    position: absolute;
+    left: 10vw;
+    top: 3vw;
+    z-index: 99;
+    height: 10vw;
+    width: 80vw;
+    animation-delay: 0;
+}
+
+#hengfu img {
+    animation-name: imgFade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+#img-bottom {
+    position: absolute;
+    left: 10vw;
+    top: 3vw;
+    height: 10vw;
+    width: 80vw;
+    animation-delay: 0.5s;
+}
+
+@keyframes imgFade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#texts {
+    position: absolute;
+    top: 2vw;
+    left: 15vw;
+    z-index: 100;
+}
+
+#special {
+    font-size: 28px;
+    font-weight: bold;
+    color: #edffad;
+}
