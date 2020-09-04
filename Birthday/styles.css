@@ -11,10 +11,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: yellow;
-    font-size: 48px;
+    font-size: 64px;
     text-align: center;
     font-weight: bold;
     box-shadow: 5px 10px 10px #4e0c0c;
+    letter-spacing: 0.2em;
+    vertical-align: middle;
 }
 
 #audioFrame {
@@ -116,9 +118,10 @@ body {
 
 #texts {
     position: absolute;
-    top: 2vw;
+    top: 0.7vw;
     left: 15vw;
     z-index: 100;
+    font-stretch: expanded;
 }
 
 #special {
